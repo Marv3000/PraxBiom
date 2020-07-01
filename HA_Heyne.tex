@@ -4,7 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[toc=sectionentrywithdots]{scrartcl}
+\documentclass{scrartcl}
 
 % AMS packages:
 \usepackage{amsmath, amsthm, amsfonts} %Mathe-Pakete
@@ -32,6 +32,8 @@
 \usepackage{longtable} %Tabellen über zwei Seiten
 \usepackage{caption} %Float ohne Caption
 \usepackage{titlesec} %Manipulation der Headings
+\usepackage{tocstyle}
+\usetocstyle{allwithdot}
 
 % Grafiken im Header
 %-----------------------------------------------------------------
@@ -100,6 +102,7 @@
 \author{Marvin Heyne\\
   	\small marvinheyne@gmail.com \\
 }
+
 \begin{document}
 
 \maketitle
